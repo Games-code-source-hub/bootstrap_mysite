@@ -48,3 +48,29 @@
     border: 3px solid black;
     border-radius: 50px
 }
+
+#stat {
+
+    border-radius: 50px
+}
+
+#nave {
+    
+    border-radius: 10px
+}
+
+#main {
+    border: 3px solid black;
+    border-radius: 10px
+}
+
+#maintext {
+    font-size: 30px;
+    color: white;
+    text-shadow:black 2px 1px;
+}
+
+#reklama {
+    color: white;
+    text-shadow:black 2px 1px;
+}
