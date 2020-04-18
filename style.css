@@ -24,3 +24,27 @@
     border: 3px solid black;
     border-radius: 10px;
 }
+
+#slides {
+    border: 3px solid black;
+    border-radius: 50px
+}
+
+#slideShow {
+    border: 3px solid white;
+}
+
+#prev {
+    border: 3px solid black;
+    border-radius: 50px
+}
+
+#play {
+    border: 3px solid black;
+    border-radius: 50px
+}
+
+#next {
+    border: 3px solid black;
+    border-radius: 50px
+}
