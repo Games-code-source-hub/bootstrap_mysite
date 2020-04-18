@@ -1,0 +1,17 @@
+#logo {
+    border: 3px solid black;
+    border-radius: 100px;
+}
+
+@media (min-width:540px){
+    .mr-sm-6{
+        margin-right: 5rem !important 
+    }
+    .mr-sm-7{
+        margin-right: 7rem !important 
+    }
+}
+
+.news {
+    max-width:1000px;
+}
