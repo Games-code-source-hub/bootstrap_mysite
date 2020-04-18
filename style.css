@@ -15,3 +15,12 @@
 .news {
     max-width:1000px;
 }
+
+#cardtitle {
+    font-size: 1.5em;
+}
+
+#gaben {
+    border: 3px solid black;
+    border-radius: 10px;
+}
