@@ -1,9 +1,9 @@
 var i=false;
 
 $("#slideShow").carousel({
-    interval:5000,
+    interval:3000,
     keyboard: false,
-    pause: false,
+    pause: i,
     ride: true,
     wrap: true
 })
@@ -20,12 +20,17 @@ $("#next").click(function (e){
 })
 
 $("#play").click(function(){
-    if(i){
-        $("#slideShow").carousel('pause');
+    if(i) {
+        $("#slideShow").carousel('cycle');
         i=false;
+        console.log(i);
+        $("#play").text(' ▌▌');
     }
     else {
-        $("slideShow").carousel('play');
+        $("#slideShow").carousel('pause');
         i=true;
+        console.log(i);
+        $("#play").text('▶');
     }
 })
+ 
